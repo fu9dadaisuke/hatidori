@@ -1,0 +1,9 @@
+AddHandler x-httpd-php5.3 .php .phps
+suPHP_ConfigPath /home/f9ddsk/f9ddsk.xsrv.jp/xserver_php/
+AddHandler fcgid-script .php .phps
+FCGIWrapper "/home/f9ddsk/f9ddsk.xsrv.jp/xserver_php/php-cgi -c /home/f9ddsk/f9ddsk.xsrv.jp/xserver_php/php.ini" .php
+FCGIWrapper "/home/f9ddsk/f9ddsk.xsrv.jp/xserver_php/php-cgi -c /home/f9ddsk/f9ddsk.xsrv.jp/xserver_php/php.ini" .phps
+AuthUserFile "/home/f9ddsk/f9ddsk.xsrv.jp/htpasswd/.htpasswd"
+AuthName "Member Site"
+AuthType BASIC
+require valid-user
