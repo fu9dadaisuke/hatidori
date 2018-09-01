@@ -5,7 +5,7 @@ h1.info-title {
   font-family: Yu Mincho, 游明朝, Hiragino Mincho Pro, ＭＳ 明朝;
   font-weight: bold; }
 
-h2.title {
+h2.info-title {
   font-family: Yu Mincho, 游明朝, Hiragino Mincho Pro, ＭＳ 明朝;
   font-weight: bold;
   font-size: 20px;
@@ -56,38 +56,85 @@ section#review {
         line-height: 30px;
         font-style: italic; }
 
-section#shop div.column_box {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px; }
-  section#shop div.column_box div.column_2 {
-    width: 50%;
-    margin-right: 2%; }
-    section#shop div.column_box div.column_2:last-of-type {
-      margin-right: 0;
-      margin-left: 2%; }
-    section#shop div.column_box div.column_2 dl {
-      display: flex;
-      border-bottom: 1px solid #aaaaaa;
-      padding-bottom: 10px; }
-      section#shop div.column_box div.column_2 dl dt {
-        width: 50%; }
-      section#shop div.column_box div.column_2 dl dd {
-        width: 50%; }
-    section#shop div.column_box div.column_2 a.btn {
-      background-color: #fbed5e;
-      box-shadow: 0 2px rgba(203, 202, 202, 0.66);
+section#shop {
+  margin-top: 50px; }
+  section#shop div.column_box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; }
+    section#shop div.column_box div.column_2 {
+      width: 50%;
+      margin-right: 2%; }
+      section#shop div.column_box div.column_2:last-of-type {
+        margin-right: 0;
+        margin-left: 2%; }
+      section#shop div.column_box div.column_2 dl {
+        display: flex;
+        border-bottom: 1px solid #aaaaaa;
+        padding-bottom: 10px; }
+        section#shop div.column_box div.column_2 dl dt {
+          width: 50%; }
+        section#shop div.column_box div.column_2 dl dd {
+          width: 50%; }
+      section#shop div.column_box div.column_2 a.btn {
+        background-color: #fbed5e;
+        box-shadow: 0 2px rgba(203, 202, 202, 0.66);
+        text-align: center;
+        padding: 15px 0;
+        width: 100%;
+        border-radius: 5px;
+        width: 100%;
+        font-size: 10px;
+        font-size: 1rem;
+        line-height: 20px;
+        display: inline-block; }
+        section#shop div.column_box div.column_2 a.btn:hover {
+          opacity: 0.7; }
+
+section#author {
+  margin-top: 50px; }
+  section#author div.column_box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; }
+    section#author div.column_box div.column_2 {
+      width: 50%;
+      margin-right: 2%; }
+      section#author div.column_box div.column_2:last-of-type {
+        margin-right: 0;
+        margin-left: 2%; }
+      section#author div.column_box div.column_2:first-of-type {
+        width: 30%; }
+      section#author div.column_box div.column_2:last-of-type {
+        width: 70%; }
+      section#author div.column_box div.column_2 p.sub {
+        font-family: Yu Mincho, 游明朝, Hiragino Mincho Pro, ＭＳ 明朝;
+        font-weight: bold;
+        font-size: 10px;
+        font-size: 1rem;
+        margin-bottom: 0; }
+      section#author div.column_box div.column_2 p.name {
+        font-family: Yu Mincho, 游明朝, Hiragino Mincho Pro, ＭＳ 明朝;
+        font-weight: bold;
+        font-size: 20px;
+        font-size: 2rem; }
+  section#author div.movie {
+    width: 100%;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; }
+  section#author div.event {
+    margin-top: 30px;
+    width: 100%;
+    background-color: #f9f8f6;
+    padding: 20px 3%; }
+    section#author div.event p.event_title {
       text-align: center;
-      padding: 15px 0;
-      width: 100%;
-      border-radius: 5px;
-      width: 100%;
+      font-weight: bold;
       font-size: 10px;
-      font-size: 1rem;
-      line-height: 20px;
-      display: inline-block; }
-      section#shop div.column_box div.column_2 a.btn:hover {
-        opacity: 0.7; }
+      font-size: 1rem; }
 
 /*# sourceMappingURL=books-info.css.map */
