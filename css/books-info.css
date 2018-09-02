@@ -23,6 +23,10 @@ div.anchor-box {
   border-bottom: solid 1px #7b7a7a;
   display: flex;
   justify-content: space-around; }
+  div.anchor-box a {
+    font-weight: bold; }
+    div.anchor-box a i {
+      margin-right: 2px; }
 
 section#book {
   margin-top: 50px; }
@@ -48,13 +52,38 @@ section#review {
       padding: 20px 2%;
       background-color: #f9f8ec;
       color: #83807a;
-      min-height: 400px; }
+      min-height: 400px;
+      position: relative; }
       section#review div.column_box div.column_2:last-of-type {
         margin-right: 0;
         margin-left: 2%; }
+      section#review div.column_box div.column_2 p.review-title {
+        font-size: 13px;
+        font-size: 1.3rem;
+        font-weight: bold;
+        position: relative; }
+        section#review div.column_box div.column_2 p.review-title:after {
+          content: "";
+          background: url(/info_images/stamp.png);
+          background-size: 70px 51px;
+          width: 70px;
+          height: 51px;
+          background-repeat: no-repeat;
+          position: absolute;
+          right: 5px;
+          top: -10px;
+          opacity: 0.7; }
       section#review div.column_box div.column_2 p {
         line-height: 30px;
-        font-style: italic; }
+        font-style: italic;
+        font-family: Yu Mincho, 游明朝, Hiragino Mincho Pro, ＭＳ 明朝; }
+      section#review div.column_box div.column_2 p.name {
+        text-align: right;
+        position: absolute;
+        bottom: 10px;
+        right: 20px;
+        font-size: 12px;
+        font-size: 1.2rem; }
 
 section#shop {
   margin-top: 50px; }
@@ -84,13 +113,18 @@ section#shop {
         padding: 15px 0;
         width: 100%;
         border-radius: 5px;
+        color: #444444;
         width: 100%;
         font-size: 10px;
         font-size: 1rem;
         line-height: 20px;
-        display: inline-block; }
+        display: inline-block;
+        position: relative; }
         section#shop div.column_box div.column_2 a.btn:hover {
           opacity: 0.7; }
+        section#shop div.column_box div.column_2 a.btn:before {
+          content: "\f07a";
+          font-family: FontAwesome; }
 
 section#author {
   margin-top: 50px; }
@@ -136,5 +170,31 @@ section#author {
       font-weight: bold;
       font-size: 10px;
       font-size: 1rem; }
+
+section#relation {
+  margin-top: 50px; }
+  section#relation div.relation-box {
+    border: 1px solid #aaaaaa;
+    padding: 20px 3%;
+    margin-top: 30px; }
+    section#relation div.relation-box p.relation-title {
+      font-weight: bold;
+      font-size: 10px;
+      font-size: 1rem; }
+    section#relation div.relation-box div.column_box {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px; }
+      section#relation div.relation-box div.column_box div.column_2 {
+        width: 50%;
+        margin-right: 2%; }
+        section#relation div.relation-box div.column_box div.column_2:last-of-type {
+          margin-right: 0;
+          margin-left: 2%; }
+        section#relation div.relation-box div.column_box div.column_2:first-of-type {
+          width: 30%; }
+        section#relation div.relation-box div.column_box div.column_2:last-of-type {
+          width: 70%; }
 
 /*# sourceMappingURL=books-info.css.map */
