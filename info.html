@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>本づくりを通して楽しい明日をつくる｜株式会社八鳥（ハチドリ） | 株式会社 八鳥（ハチドリ）</title>
     <link rel="stylesheet" href="http://hatidori.jp/wp/wp-content/themes/hatidori/css/normalize.css">
-    <link rel="stylesheet" href="http://hatidori.jp/wp/wp-content/themes/hatidori/style.css">
+    <!--  ★  <link rel="stylesheet" href="http://hatidori.jp/wp/wp-content/themes/hatidori/style.css"> -->
 
     <link rel="icon" href="http://hatidori.jp/wp/wp-content/themes/hatidori/images/favicon.ico" type="image/vnd.microsoft.icon">
 
@@ -32,9 +32,13 @@
     <!-- /all in one seo pack -->
     <link rel='dns-prefetch' href='//s.w.org' />
     <link rel='stylesheet' id='contact-form-7-css' href='http://hatidori.jp/wp/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.5.1' type='text/css' media='all' />
-    <!-- bookinfo用新規css -->
+    <!-- ★bookinfo用新規css -->
     <link rel="stylesheet" href="/css/books-info.css">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <!-- ★rwd調整 -->
+    <link rel="stylesheet" media="(min-width: 481px)" href="http://hatidori.jp/wp/wp-content/themes/hatidori/style.css">
+    <link rel="stylesheet" media="(max-width: 480px)" href="http://hatidori.jp/wp/wp-content/themes/hatidori/css/style_sp.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 
 </head>
 
@@ -285,6 +289,20 @@
         <small>Copyright hatidori,inc. all right reserved.</small>
     </footer>
     <!-- end footer-->
+    <!-- ★sp nav -->
+    <button class="modal-aside"><img src="http://hatidori.jp/wp/wp-content/themes/hatidori/images/menu.svg" height="60"></button>
+    <nav class="sp_nav">
+        <ul class="clearfix">
+            <li><a href="http://hatidori.jp/">トップページ</a></li>
+            <li><a href="http://hatidori.jp/books/">本づくり</a></li>
+            <li><a href="http://hatidori.jp/about/">八鳥とは</a></li>
+            <li><a href="http://hatidori.jp/news/">ブログ</a></li>
+            <li><a href="http://shop.hatidori.jp/" target="_blank">ショップ</a></li>
+            <li><a href="http://hatidori.jp/contact/">お問い合わせ</a></li>
+        </ul>
+        <button class="close">閉じる</button>
+    </nav>
+    <!--end sp nav -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css">
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src='http://hatidori.jp/wp/wp-content/themes/hatidori/js/jquery.inview.min.js'></script>
@@ -307,7 +325,6 @@
             //ブラウザの表示域に表示されたときに実行する処理
             $(this).addClass('animation');
         });
-
     </script>
 
 
@@ -321,7 +338,6 @@
             js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.8&appId=107783629321464";
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
-
     </script>
 </body>
 
