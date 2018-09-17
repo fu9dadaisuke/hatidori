@@ -99,9 +99,9 @@ div#wrapper {
         font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "Yu Mincho", "YuMincho";
         text-align: center;
         font-weight: normal;
-        letter-spacing: 1rem;
-        font-size: 20px;
-        font-size: 2rem; }
+        letter-spacing: 0.7rem;
+        font-size: 14px;
+        font-size: 1.4rem; }
       div#wrapper section main article section.books p.sub_title {
         color: 434343;
         font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "Yu Mincho", "YuMincho";
@@ -136,9 +136,9 @@ div#wrapper {
         font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "Yu Mincho", "YuMincho";
         text-align: center;
         font-weight: normal;
-        letter-spacing: 1rem;
-        font-size: 20px;
-        font-size: 2rem; }
+        letter-spacing: 0.7rem;
+        font-size: 14px;
+        font-size: 1.4rem; }
       div#wrapper section main article section p.sub_title {
         color: 434343;
         font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "Yu Mincho", "YuMincho";
@@ -173,10 +173,10 @@ div#wrapper {
               font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "Yu Mincho", "YuMincho";
               text-align: center;
               font-weight: normal;
-              font-size: 15px;
-              font-size: 1.5rem;
-              line-height: 20px;
-              line-height: 2rem;
+              font-size: 12px;
+              font-size: 1.2rem;
+              line-height: 18px;
+              line-height: 1.8rem;
               min-height: 65px; }
       div#wrapper section main article section div#media_list ul.column_box li.column_4 {
         width: 23%;

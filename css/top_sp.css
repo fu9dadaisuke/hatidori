@@ -44,8 +44,8 @@ div#wrapper section.container {
             width: 100%; }
           div#wrapper section.container main article section div.column_box div.column_3 div.text_box p.name {
             min-height: auto !important;
-            font-size: 13px;
-            font-size: 1.3rem; }
+            font-size: 11px;
+            font-size: 1.1rem; }
       div#wrapper section.container main article section div#media_list ul.column_box li.column_4 {
         width: 48%;
         margin-bottom: 0; }

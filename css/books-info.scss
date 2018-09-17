@@ -68,21 +68,22 @@ img {
 }
 
 h1.info-title {
-    @include fontsize(25);
+    @include fontsize(14);
     @include h-tit;
     @include sp {
-        @include fontsize(15);
+        @include fontsize(11);
         text-align: center;
     }
 }
 
 h2.info-title {
     @include h-tit;
-    @include fontsize(20);
-    line-height: 60px;
+    @include fontsize(14);
+    line-height: 40px;
     border-bottom: 1px solid #888888;
     @include sp {
-        @include fontsize(13);
+        @include fontsize(10);
+        line-height: 30px;
     }
 }
 
@@ -124,8 +125,9 @@ section#book {
     section {
         margin-top: 20px;
         h3.title {
-            @include fontsize(15);
+            @include fontsize(12);
             font-family: YuGothic, 游ゴシック, sans-serif;
+            font-weight: normal;
             @include sp {
                 @include fontsize(10);
             }
@@ -359,11 +361,14 @@ section#relation {
 /* ★ナビ用仮css設定 */
 
 button.modal-aside {
-    display: none!important;
+    display: none;
+    @include sp {
+        display: block;
+    }
 }
 
 nav.sp_nav {
-    display: none!important;
+    display: none;
 }
 
 nav.sp_nav.open.fixed {
