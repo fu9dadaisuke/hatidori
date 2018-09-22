@@ -1,4 +1,10 @@
 /* mixin */
+.pc_block {
+  display: none !important; }
+
+.sp_block {
+  display: block !important; }
+
 img {
   width: 100%; }
 
@@ -47,11 +53,16 @@ div#wrapper section.container {
             font-size: 11px;
             font-size: 1.1rem; }
       div#wrapper section.container main article section div#media_list ul.column_box li.column_4 {
-        width: 48%;
-        margin-bottom: 0; }
+        width: 98%;
+        margin-bottom: 25px;
+        min-height: initial;
+        min-height: auto;
+        max-height: initial;
+        max-height: auto; }
         div#wrapper section.container main article section div#media_list ul.column_box li.column_4 a div.media_info h3 {
           font-size: 9px;
-          font-size: 0.9rem; }
+          font-size: 0.9rem;
+          padding-left: 2%; }
 div#wrapper div.container {
   width: 100%;
   padding-top: 20px;
@@ -67,7 +78,8 @@ div#wrapper div.container {
     float: none;
     width: 100%; }
     div#wrapper div.container div.link_contact h2 {
-      text-align: center; }
+      text-align: center;
+      font-size: 17px; }
     div#wrapper div.container div.link_contact p.mt-medium a img {
       width: auto;
       display: inline-block; }

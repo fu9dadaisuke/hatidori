@@ -80,7 +80,12 @@
                         <h2>本のご紹介</h2>
                         <p class="sub_title">本のわくから飛び出した本のかたち</p>
                         <div class="cover">
-                            <ul class="slick-box">
+                            <ul class="slick-box pc_block">
+                                <li><img src="https://placehold.jp/1170x400.png" alt=""></li>
+                                <li><img src="https://placehold.jp/1170x400.png" alt=""></li>
+                                <li><img src="https://placehold.jp/1170x400.png" alt=""></li>
+                            </ul>
+                            <ul class="slick-box sp_block">
                                 <li><img src="https://placehold.jp/1170x400.png" alt=""></li>
                                 <li><img src="https://placehold.jp/1170x400.png" alt=""></li>
                                 <li><img src="https://placehold.jp/1170x400.png" alt=""></li>
@@ -95,12 +100,13 @@
                                     nextArrow: '<div class="next">▶</div>'
                                 });
                             });
-
                         </script>
                     </section>
                     <section>
                         <h2>作家のご紹介</h2>
-                        <p class="sub_title">個性あふれる作家さんたちの活動や本のつくり方
+                        <p class="sub_title pc_block">個性あふれる作家さんたちの活動や本のつくり方
+                        </p>
+                        <p class="sub_title sp_block">作家さんの活動や本のつくり方
                         </p>
                         <div class="column_box">
                             <div class="column_3">
@@ -108,7 +114,7 @@
                                 <div class="text_box">
                                     <p class="name">melancolia storytelling<br>（相澤 歩）</p>
                                     <p class="text-center">シンガーソングライター</p>
-                                    <p> 見たことはないけれどよく知ってるような景色をテーマにしたうたと物語と写真と映像と庭をつくる。<br>Twitterとinstagramでオリジナルストーリーをほぼ毎日配信中。
+                                    <p> 見たことはないけれどよく知ってるような景色をテーマにしたうたと物語と写真と映像と庭をつくる。<br class="pc_block">Twitterとinstagramでオリジナルストーリーをほぼ毎日配信中。
                                     </p>
                                 </div>
                             </div>
@@ -117,7 +123,7 @@
                                 <div class="text_box">
                                     <p class="name">水上 庭</p>
                                     <p class="text-center">舞台俳優／小説家</p>
-                                    <p>東京芸術大学美術学部先端芸術表現科卒。俳優として活動する傍ら、桐沢たえ名義で同人誌小説を執筆。<br>舞台の脚本のような視覚化しやすい表現と繊細な心の変化を捉えた描写に定評がある。
+                                    <p>東京芸術大学美術学部先端芸術表現科卒。俳優として活動する傍ら、桐沢たえ名義で同人誌小説を執筆。<br class="pc_block">舞台の脚本のような視覚化しやすい表現と繊細な心の変化を捉えた描写に定評がある。
                                     </p>
                                 </div>
                             </div>
@@ -323,7 +329,6 @@
             //ブラウザの表示域に表示されたときに実行する処理
             $(this).addClass('animation');
         });
-
     </script>
 
 
@@ -337,7 +342,6 @@
             js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.8&appId=107783629321464";
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
-
     </script>
 
     <script type="text/javascript" src="/js/slick.min.js"></script>

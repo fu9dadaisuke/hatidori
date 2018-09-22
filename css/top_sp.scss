@@ -12,6 +12,14 @@
     line-height: ($size / $base) * 1rem;
 }
 
+.pc_block {
+    display: none!important;
+}
+
+.sp_block {
+    display: block!important;
+}
+
 img {
     width: 100%;
 }
@@ -78,10 +86,15 @@ div#wrapper {
                     }
                     div#media_list ul.column_box {
                         li.column_4 {
-                            width: 48%;
-                            margin-bottom: 0;
+                            width: 98%;
+                            margin-bottom: 25px;
+                            min-height: initial;
+                            min-height: auto;
+                            max-height: initial;
+                            max-height: auto;
                             a div.media_info h3 {
                                 @include fontsize(9);
+                                padding-left: 2%;
                             }
                         }
                     }
@@ -107,6 +120,7 @@ div#wrapper {
             width: 100%;
             h2 {
                 text-align: center;
+                font-size: 17px;
             }
             p.mt-medium a img {
                 width: auto;
