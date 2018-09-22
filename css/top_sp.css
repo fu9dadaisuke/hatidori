@@ -63,6 +63,8 @@ div#wrapper section.container {
           font-size: 9px;
           font-size: 0.9rem;
           padding-left: 2%; }
+div#wrapper div.mt-medium {
+  margin-top: 0; }
 div#wrapper div.container {
   width: 100%;
   padding-top: 20px;
@@ -79,7 +81,8 @@ div#wrapper div.container {
     width: 100%; }
     div#wrapper div.container div.link_contact h2 {
       text-align: center;
-      font-size: 17px; }
+      font-size: 17px;
+      font-weight: bold; }
     div#wrapper div.container div.link_contact p.mt-medium a img {
       width: auto;
       display: inline-block; }
